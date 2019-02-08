@@ -12,13 +12,17 @@ regions:
   header: 'Top Bar'
   highlighted: 'Highlighted'
   help: 'Help'
+  content_top_one: 'Content Top One'
+  content_top_two: 'Content Top Two'
+  content_top_three: 'Content Top Three'
+  content_top: 'Content Top'
   content: 'Content'
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
-  
+
 libraries:
   - blog/global-styling
 

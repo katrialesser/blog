@@ -51,14 +51,14 @@ h3 {
 }
 
 h4 {
-
+  
 }
 
 h5 {
 
 }
 h6 {
-    
+
 }
 
 // General info
@@ -133,6 +133,7 @@ a {
 .view-most-recent-post .views-field.views-field-title {
   font-weight: bold;
   font-size: 20px;
+  margin-bottom: -20px;
 }
 
 
@@ -143,4 +144,16 @@ p.text-align-center a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+// tags
+.field.field--name-field-tags > .field--items {
+    display: flex;
+    padding: 7px 0;
+    .field--item > a {
+        padding: 4px 15px;
+        background: $xlightgray;
+        margin: 0 5px;
+    }
 }

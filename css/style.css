@@ -6429,12 +6429,21 @@ a {
 /* ---- front page --- */
 .view-most-recent-post .views-field.views-field-title {
   font-weight: bold;
-  font-size: 20px; }
+  font-size: 20px;
+  margin-bottom: -20px; }
 
 p.text-align-center a {
   max-width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+.field.field--name-field-tags > .field--items {
+  display: flex;
+  padding: 7px 0; }
+  .field.field--name-field-tags > .field--items .field--item > a {
+    padding: 4px 15px;
+    background: #f2f2f2;
+    margin: 0 5px; }
 
 /*# sourceMappingURL=style.css.map */
