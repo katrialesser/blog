@@ -92,6 +92,11 @@ a {
   border: none;
 
 }
+// content top regions
+.region.region-content-top-one, .region.region-content-top-two, .region.region-content-top-three {
+    padding: 20px 10px;
+}
+
 
 .clearfix.main-content__container > .row { 
   & > section.col-md-8 {
