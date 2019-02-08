@@ -6,3 +6,126 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+
+
+$teal: #28a288;
+$blue: #6cbdc8;
+$green: #000000;
+
+$darkgray: #666;
+$gray: #000000;
+$lightgray: #000000;
+$xlightgray: #f2f2f2; 
+
+// fonts & headings
+$logofont: 'Kaushan Script', cursive;
+$plainfont: 'Open Sans', sans-serif;
+// main font 
+
+h1 {
+  font-family: $plainfont;
+  font-size: 40px;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 600;
+}
+h2 {
+  font-family: $plainfont;
+  font-size: 30px;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: $plainfont;
+  font-size: 25px;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 600;
+}
+
+// General info
+a {
+  color: $teal;
+  font-weight: bold;
+  &:hover {
+    color: $blue;
+  }
+}
+
+
+// common classes
+.bold {
+  font-weight: bold;
+}
+.button {
+  // make this look like the buttons in our mockup
+  background: $teal;
+  color: $darkgray;
+  padding: 8 20px;
+  &:hover {
+    background: $blue;
+  }
+}
+
+// regions & general page
+
+.page-container-border-enabled .page-container {
+  /* border-color: #505050; */
+  border: none;
+
+}
+
+.clearfix.main-content__container > .row { 
+  & > section.col-md-8 {
+  border-right: 1px solid gray;
+    // need to look at widths Katria at different sizes 
+  // or change the md- and lg- numbers etc
+  width: 63%;
+  }
+  & > aside.col-md-4 {
+    // need to look at widths Katria at different sizes 
+    // or change the md- and lg- numbers etc
+  }
+}
+
+
+// general styling
+
+.flag {
+    padding: 4px 15px;
+    position: relative;
+    width: fit-content;
+    top: 50px;
+    left: -15px;
+
+  &.teal, &.for.baby {
+    background: $teal;
+  }
+  &.blue, &.For.Mom {
+    background: $blue;
+  }
+  &.green, &.for.the.home {
+    background: $green;
+  }
+}
+
+/* ---- front page --- */
+
+
+.view-most-recent-post .views-field.views-field-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+// page content
+p.text-align-center a {
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
