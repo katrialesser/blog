@@ -129,7 +129,10 @@ a {
 
 /* ---- front page --- */
 
-.front {
+.path-frontpage {
+    h1.js-quickedit-page-title.page-header {
+        display: none;
+    }
     .view-most-recent-post .views-field.views-field-title {
     font-weight: bold;
     font-size: 20px;
