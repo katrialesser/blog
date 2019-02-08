@@ -129,13 +129,22 @@ a {
 
 /* ---- front page --- */
 
+.front {
+    .view-most-recent-post .views-field.views-field-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -20px;
+    }
 
-.view-most-recent-post .views-field.views-field-title {
-  font-weight: bold;
-  font-size: 20px;
-  margin-bottom: -20px;
+
 }
 
+// For Baby, For Mom, For the Home Landing Pages
+
+.view-most-recent-post .views-field.views-field-title {
+    font-weight: bold;
+    font-size: 20px;
+}
 
 
 // page content

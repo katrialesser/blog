@@ -6427,10 +6427,14 @@ a {
     background: #000000; }
 
 /* ---- front page --- */
-.view-most-recent-post .views-field.views-field-title {
+.front .view-most-recent-post .views-field.views-field-title {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: -20px; }
+
+.view-most-recent-post .views-field.views-field-title {
+  font-weight: bold;
+  font-size: 20px; }
 
 p.text-align-center a {
   max-width: 400px;
