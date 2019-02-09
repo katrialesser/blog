@@ -87,6 +87,13 @@ a {
 
 // regions & general page
 
+// logo 
+.navbar-default .navbar-brand {
+  color: #777;
+  font-size: 30px;
+  font-family: $logofont;
+}
+
 .page-container-border-enabled .page-container {
   /* border-color: #505050; */
   border: none;

@@ -6405,6 +6405,11 @@ a {
   .button:hover {
     background: #6cbdc8; }
 
+.navbar-default .navbar-brand {
+  color: #777;
+  font-size: 30px;
+  font-family: "Kaushan Script", cursive; }
+
 .page-container-border-enabled .page-container {
   /* border-color: #505050; */
   border: none; }
