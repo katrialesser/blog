@@ -89,9 +89,14 @@ a {
 
 // logo 
 .navbar-default .navbar-brand {
-  color: #777;
-  font-size: 30px;
+  color: $gray;
+  font-size: 43px;
   font-family: $logofont;
+  position: relative;
+  top: 2px;
+  &:hover {
+    color: $darkgray;
+  }
 }
 
 .page-container-border-enabled .page-container {
@@ -128,13 +133,13 @@ a {
     top: 50px;
     left: -15px;
 
-  &.teal, &.for.baby {
+  &.teal, &.For.Baby {
     background: $teal;
   }
   &.blue, &.For.Mom {
     background: $blue;
   }
-  &.green, &.for.the.home {
+  &.green, &.For.the.Home {
     background: $green;
   }
 }

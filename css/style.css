@@ -6406,9 +6406,13 @@ a {
     background: #6cbdc8; }
 
 .navbar-default .navbar-brand {
-  color: #777;
-  font-size: 30px;
-  font-family: "Kaushan Script", cursive; }
+  color: #000000;
+  font-size: 43px;
+  font-family: "Kaushan Script", cursive;
+  position: relative;
+  top: 2px; }
+  .navbar-default .navbar-brand:hover {
+    color: #666; }
 
 .page-container-border-enabled .page-container {
   /* border-color: #505050; */
@@ -6427,11 +6431,11 @@ a {
   width: fit-content;
   top: 50px;
   left: -15px; }
-  .flag.teal, .flag.for.baby {
+  .flag.teal, .flag.For.Baby {
     background: #28a288; }
   .flag.blue, .flag.For.Mom {
     background: #6cbdc8; }
-  .flag.green, .flag.for.the.home {
+  .flag.green, .flag.For.the.Home {
     background: #000000; }
 
 /* ---- front page --- */
