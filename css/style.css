@@ -6439,20 +6439,19 @@ a {
   .flag.green, .flag.For.the.Home {
     background: #69d09d; }
 
-/* ---- front page --- */
+.view-most-recent-post .views-field-title {
+  font-weight: bold;
+  font-size: 20px; }
+
+.view-most-recent-post .views-field-field-feature-image {
+  padding-bottom: 10px; }
+
+/* ---- front page Only --- */
 .path-frontpage h1.js-quickedit-page-title.page-header {
   display: none; }
 
-.path-frontpage .view-most-recent-post .views-field-title {
-  font-weight: bold;
-  font-size: 20px; }
-
 .path-frontpage .view-most-recent-post .views-field-field-publish-date {
   margin-bottom: -20px; }
-
-.view-most-recent-post .views-field.views-field-title {
-  font-weight: bold;
-  font-size: 20px; }
 
 p.text-align-center a {
   max-width: 400px;
