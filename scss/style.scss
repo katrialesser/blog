@@ -9,13 +9,13 @@
 
 
 
-$teal: #28a288;
+$teal: #68c7b3;
 $blue: #6cbdc8;
-$green: #000000;
+$green: #69d09d;
 
-$darkgray: #666;
-$gray: #000000;
-$lightgray: #000000;
+$darkgray: #333;
+$gray: #6a6a6a;
+$lightgray: #dad7d7;
 $xlightgray: #f2f2f2; 
 
 // fonts & headings
@@ -127,6 +127,7 @@ a {
 // general styling
 
 .flag {
+  color: #000;
     padding: 4px 15px;
     position: relative;
     width: fit-content;

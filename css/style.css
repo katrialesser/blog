@@ -6390,7 +6390,7 @@ h3 {
   font-weight: 600; }
 
 a {
-  color: #28a288;
+  color: #68c7b3;
   font-weight: bold; }
   a:hover {
     color: #6cbdc8; }
@@ -6399,20 +6399,20 @@ a {
   font-weight: bold; }
 
 .button {
-  background: #28a288;
-  color: #666;
+  background: #68c7b3;
+  color: #333;
   padding: 8 20px; }
   .button:hover {
     background: #6cbdc8; }
 
 .navbar-default .navbar-brand {
-  color: #000000;
+  color: #6a6a6a;
   font-size: 43px;
   font-family: "Kaushan Script", cursive;
   position: relative;
   top: 2px; }
   .navbar-default .navbar-brand:hover {
-    color: #666; }
+    color: #333; }
 
 .page-container-border-enabled .page-container {
   /* border-color: #505050; */
@@ -6426,17 +6426,18 @@ a {
   width: 63%; }
 
 .flag {
+  color: #000;
   padding: 4px 15px;
   position: relative;
   width: fit-content;
   top: 50px;
   left: -15px; }
   .flag.teal, .flag.For.Baby {
-    background: #28a288; }
+    background: #68c7b3; }
   .flag.blue, .flag.For.Mom {
     background: #6cbdc8; }
   .flag.green, .flag.For.the.Home {
-    background: #000000; }
+    background: #69d09d; }
 
 /* ---- front page --- */
 .path-frontpage h1.js-quickedit-page-title.page-header {
