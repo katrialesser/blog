@@ -6450,6 +6450,14 @@ a {
 .path-frontpage h1.js-quickedit-page-title.page-header {
   display: none; }
 
+.path-frontpage .view-most-recent-post .view-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  @media screen and (min-width: 768px) {
+    .path-frontpage .view-most-recent-post .view-content .view-row {
+      width: 47%; } }
+
 .path-frontpage .view-most-recent-post .views-field-field-publish-date {
   margin-bottom: -20px; }
 

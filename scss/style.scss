@@ -167,6 +167,17 @@ a {
         display: none;
     }
     .view-most-recent-post {
+       .view-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .view-row {
+          // width: 90%;
+          @media screen and (min-width: 768px) {
+            width: 47%;
+          }
+        }
+      }
       .views-field-field-publish-date {
         margin-bottom: -20px; // due to flag reposition
       }
